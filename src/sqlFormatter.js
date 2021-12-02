@@ -8,6 +8,7 @@ import RedshiftFormatter from './languages/RedshiftFormatter';
 import SparkSqlFormatter from './languages/SparkSqlFormatter';
 import StandardSqlFormatter from './languages/StandardSqlFormatter';
 import TSqlFormatter from './languages/TSqlFormatter';
+import HqlFormatter from './languages/HqlFormatter';
 
 const formatters = {
   db2: Db2Formatter,
@@ -20,6 +21,7 @@ const formatters = {
   spark: SparkSqlFormatter,
   sql: StandardSqlFormatter,
   tsql: TSqlFormatter,
+  hql: HqlFormatter,
 };
 
 /**
